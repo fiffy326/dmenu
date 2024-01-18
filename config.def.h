@@ -23,9 +23,9 @@ static char col_out_fg[]  = "#000000";
 static char col_out_bg[]  = "#00ffff";
 static char *colors[SchemeLast][2] = {
 	/*               fg           bg          */
-	[SchemeNorm] = { col_norm_fg, col_norm_fg },
+	[SchemeNorm] = { col_norm_fg, col_norm_bg },
 	[SchemeSel]  = { col_sel_fg,  col_sel_bg  },
-	[SchemeOut]  = { col_out_fg,  col_out_bg   },
+	[SchemeOut]  = { col_out_fg,  col_out_bg  },
 };
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
