@@ -47,7 +47,6 @@ ResourcePref resources[] = {
 	{ "centered",     INTEGER, &centered     },
 	{ "min_width",    INTEGER, &min_width    },
 	{ "font",         STRING,  &font         },
-	{ "prompt",       STRING,  &prompt       },
 	{ "col_norm_fg",  STRING,  &col_norm_fg  },
 	{ "col_norm_bg",  STRING,  &col_norm_bg  },
 	{ "col_sel_fg",   STRING,  &col_sel_fg   },
