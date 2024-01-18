@@ -37,21 +37,25 @@ static unsigned int lines = 0;
  */
 static const char worddelimiters[] = " ";
 
+/* Size of the window border */
+static unsigned int border_width = 0;
+
 /* Xresources preferences to load at startup */
 ResourcePref resources[] = {
-	{ "topbar",      INTEGER, &topbar      },
-	{ "fuzzy",       INTEGER, &fuzzy       },
-	{ "centered",    INTEGER, &centered    },
-	{ "min_width",   INTEGER, &min_width   },
-	{ "font",        STRING,  &font        },
-	{ "prompt",      STRING,  &prompt      },
-	{ "col_norm_fg", STRING,  &col_norm_fg },
-	{ "col_norm_bg", STRING,  &col_norm_bg },
-	{ "col_sel_fg",  STRING,  &col_sel_fg  },
-	{ "col_sel_bg",  STRING,  &col_sel_bg  },
-	{ "col_out_fg",  STRING,  &col_out_fg  },
-	{ "col_out_bg",  STRING,  &col_out_bg  },
-	{ "lines",       INTEGER, &lines       },
+	{ "topbar",       INTEGER, &topbar       },
+	{ "fuzzy",        INTEGER, &fuzzy        },
+	{ "centered",     INTEGER, &centered     },
+	{ "min_width",    INTEGER, &min_width    },
+	{ "font",         STRING,  &font         },
+	{ "prompt",       STRING,  &prompt       },
+	{ "col_norm_fg",  STRING,  &col_norm_fg  },
+	{ "col_norm_bg",  STRING,  &col_norm_bg  },
+	{ "col_sel_fg",   STRING,  &col_sel_fg   },
+	{ "col_sel_bg",   STRING,  &col_sel_bg   },
+	{ "col_out_fg",   STRING,  &col_out_fg   },
+	{ "col_out_bg",   STRING,  &col_out_bg   },
+	{ "lines",        INTEGER, &lines        },
+	{ "border_width", INTEGER, &border_width },
 };
 
 /* vim:set ts=4 sts=4 sw=4 */
