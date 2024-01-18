@@ -11,3 +11,4 @@ dmenu.col_sel_bg: #005577
 dmenu.col_out_fg: #000000
 dmenu.col_out_bg: #00ffff
 dmenu.lines: 0
+dmenu.border_width: 0
