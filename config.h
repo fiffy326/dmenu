@@ -8,7 +8,7 @@ static int min_width = 500; /* minimum width when centered */
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Iosevka NFM Medium:size=18"
+	"monospace:size=10"
 };
 
 static char *prompt = NULL; /* -p option; prompt to the left of input field */
