@@ -3,6 +3,8 @@
 
 static int topbar = 1; /* -b option; if 0, dmenu appears at bottom */
 static int fuzzy  = 1; /* -F option; if 0, dmenu doesn't use fuzzy matching */
+static int centered  = 0;   /* -c option; centers dmenu on screen */
+static int min_width = 500; /* minimum width when centered */
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static       char font[]   = "monospace:size=10";
@@ -39,6 +41,8 @@ static const char worddelimiters[] = " ";
 ResourcePref resources[] = {
 	{ "topbar",      INTEGER, &topbar      },
 	{ "fuzzy",       INTEGER, &fuzzy       },
+	{ "centered",    INTEGER, &centered    },
+	{ "min_width",   INTEGER, &min_width   },
 	{ "font",        STRING,  &font        },
 	{ "prompt",      STRING,  &prompt      },
 	{ "col_norm_fg", STRING,  &col_norm_fg },
