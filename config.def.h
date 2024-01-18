@@ -21,3 +21,5 @@ static unsigned int lines      = 0;
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
+
+/* vim:set ts=4 sts=4 sw=4 */
