@@ -2,7 +2,6 @@ dmenu.topbar: 1
 dmenu.fuzzy: 1
 dmenu.centered: 0
 dmenu.min_width: 500
-dmenu.font: monospace:size=10
 dmenu.col_norm_fg: #bbbbbb
 dmenu.col_norm_bg: #222222
 dmenu.col_sel_fg: #eeeeee
