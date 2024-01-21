@@ -53,5 +53,3 @@ ResourcePref resources[] = {
 	{ "lines",        INTEGER, &lines        },
 	{ "border_width", INTEGER, &border_width },
 };
-
-/* vim:set ts=4 sts=4 sw=4 */
